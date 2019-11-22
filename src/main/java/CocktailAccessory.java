@@ -1,13 +1,13 @@
 public class CocktailAccessory {
     private String name;
     private int quantity;
-    private float value;
+    private double value;
     private AccessoryType accessoryType;
 
     public CocktailAccessory(
             String name,
             int quantity,
-            float value,
+            double value,
             AccessoryType accessoryType
     ){
        this.name = name;
